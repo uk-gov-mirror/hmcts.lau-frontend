@@ -1,8 +1,5 @@
-[31m[1mInternal Error[22m[39m: qs@npm:^6.16.1: This package doesn't seem to be present in your lockfile; run "yarn install" to update the lockfile
-    at QO.getCandidates (/Users/rapolas/projects/lau/lau-frontend/.yarn/releases/yarn-4.18.1.cjs:206:4607)
-    at Dy.getCandidates (/Users/rapolas/projects/lau/lau-frontend/.yarn/releases/yarn-4.18.1.cjs:143:1311)
-    at /Users/rapolas/projects/lau/lau-frontend/.yarn/releases/yarn-4.18.1.cjs:211:8429
-    at Fw (/Users/rapolas/projects/lau/lau-frontend/.yarn/releases/yarn-4.18.1.cjs:142:45058)
-    at ot (/Users/rapolas/projects/lau/lau-frontend/.yarn/releases/yarn-4.18.1.cjs:211:8409)
-    at async Promise.allSettled (index 6)
-    at async bf (/Users/rapolas/projects/lau/lau-frontend/.yarn/releases/yarn-4.18.1.cjs:142:44386)
+{"value":"@azure/msal-node","children":{"ID":1243111,"Issue":"MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint","URL":"https://github.com/advisories/GHSA-xcx6-jx8p-x3h5","Severity":"high","Vulnerable Versions":">=5.0.0-beta.0 <7.1.0","Tree Versions":["6.0.1"],"Dependents":["@azure/identity@npm:4.13.3"]}}
+{"value":"@opentelemetry/sdk-trace-base","children":{"ID":"@opentelemetry/sdk-trace-base (deprecation)","Issue":"Use @opentelemetry/sdk-trace package","Severity":"moderate","Vulnerable Versions":"2.12.0","Tree Versions":["2.12.0"],"Dependents":["@azure/monitor-opentelemetry-exporter@npm:1.0.0-beta.46"]}}
+{"value":"undici","children":{"ID":1243077,"Issue":"undici vulnerable to Denial of Service via unbounded memory in the EventSource parser","URL":"https://github.com/advisories/GHSA-4qv8-2p9j-2685","Severity":"moderate","Vulnerable Versions":">=8.0.0 <8.12.2","Tree Versions":["8.11.2"],"Dependents":["node-gyp@npm:13.1.0"]}}
+{"value":"undici","children":{"ID":1243080,"Issue":"undici vulnerable to Subresource Integrity bypass via non-lowercase algorithm tokens","URL":"https://github.com/advisories/GHSA-f72v-6w45-q472","Severity":"moderate","Vulnerable Versions":">=8.0.0 <8.12.2","Tree Versions":["8.11.2"],"Dependents":["node-gyp@npm:13.1.0"]}}
+{"value":"undici","children":{"ID":1243112,"Issue":"undici vulnerable to Denial of Service via unhandled error on excessive content-encodings","URL":"https://github.com/advisories/GHSA-xjj6-f33q-929c","Severity":"high","Vulnerable Versions":">=8.0.0 <8.12.2","Tree Versions":["8.11.2"],"Dependents":["node-gyp@npm:13.1.0"]}}
